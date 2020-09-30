@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ./partials/header %>
+  </head>
+
+  <body id="page-top">
+    <!--Navigation-->
+    <% include ./partials/navmenu %>
+
+    <!--Start of Header-->
+    <div class="masthead text-center">
+      <div class="container">
+        <span style="font-size: 120px;"> </span>
+        <img
+          class="img-fluid"
+          src="/static/img/portfolio/logo.jpg"
+          alt="avatar"
+        />
+        <h1 class="text-uppercase mb-0">Stephanie Cragg</h1>
+        <br />
+        <hr />
+        <br />
+        <h2 class="font-weight-light mb-0">Software Developer</h2>
+        <br />
+        <br />
+      </div>
+    </div>
+    <!-- end of Header -->
+
+    <!--Start of About-->
+    <section class="about" id="About">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">About</h2>
+        <br />
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <img class="selfie" src="/static/img/portfolio/resized.self.jpg" alt="avatar" />
+            <img class="flower-selfie" src="/static/img/portfolio/flower.self.jpg" alt="avatar" />
+          </div>
+          <div id="about-description" class="col-sm-6">
+            <p>I am a highly capable software developer professional. In    addition to my computer programming skills, I offer significant abilities and experience in office administrative assistance, financial management, research and reporting, project management and payroll supervision. My ability to get along well with others, to make necessary adjustments to meet deadlines, and successfully coordinate in fast-paced environments have all contributed to my growth and my employers’ placing a significant degree of trust in me.</p>
+      
+            <p>My business skills, penchant for detail, and general aptitude have all served to help make me an above-average administrator. My approach to my work goes beyond my job description, as I am always looking for ways to improve efficiency and reduce costs. I am adept at negotiating with vendors and contractors, and my technical skills allow me to develop improvements to business and data management processes. In addition, I am recognized for my ability to communicate with clients, customers, and team members.</p>
+      
+            <p>Finally, my stable work history attest to the loyalty I demonstrate to my employers.</p>
+      
+            <p>The accompanying resume should serve to give you an idea not only of my past achievements but also of my potential for making a significant contribution to your company.</p>
+          </div>          
+        </div>
+      </div>
+    </section>
+    <!-- end of About -->
+
+    <!--start of Portfolio-->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <h2 class="text-center text-uppercase mb-0">
+      My Portfolio
+    </h2>
+    <br />
+    <br />
+    <hr />
+    <br />
+    <br />
+    <br />
+    <div class="row">
+
+      <!--start of pethotel-->
+      <div class="col-lg-6 mb-4">
+        <a
+          class="portfolio-item d-block mx-auto"
+          href="https://pet-hotel-prod-29b28.web.app/auth/signin"
+        >
+          <div
+            class="portfolio-item-caption d-flex position-absolute h-100 w-100"
+          >
+            <div
+              class="portfolio-item-caption-content my-auto w-100 text-center text-white"
+            >
+              <p>Pet Hotel React Fullstack App (username: stephieplusthree@gmail.com; password: password)- English and Portguise, authentication, multiple users and roles, settings page for capacity limits and fees, audit logs for manager with multiple search fields, registration and listings for pets and bookings, limited access depending on user roles, send news or photos via email.</p>
+            </div>
+          </div>
+          <img
+            class="pet-hotel"
+            src="/static/img/portfolio/pet.hotel.jpg"
+            alt="pet-hotel"
+          />
+        </a>
+      </div>
+      <!-- end of pet hotel -->
+
+
+      <!--start of margale pet resort-->
+      <div class="col-lg-6 mb-4">
+        <a
+          class="portfolio-item d-block mx-auto"
+          href="http://www.margalepetresort.com/"
+        >
+          <div
+            class="portfolio-item-caption d-flex position-absolute h-100 w-100"
+          >
+            <div
+              class="portfolio-item-caption-content my-auto w-100 text-center text-white"
+            >
+              <p>
+                Margale Pet Resort (client in 2020) - Wordpress Wesite with a Home Page, About Us Page, Services Page, Our Community Page, and Contact Page. I also created the Logo that took part into the companies rebranding. 
+              </p>
+            </div>
+          </div>
+          <img
+            class="margale"
+            src="/static/img/portfolio/margalepetresort.resized.jpg"
+            alt="margale"
+          />
+        </a>
+      </div>
+      <!-- end of margale pet resort -->
+
+      <!--start of facebook clone-->
+      <div class="col-lg-6 mb-4">
+        <a
+          class="portfolio-item d-block mx-auto"
+          href="https://social-media-ten.vercel.app/"
+        >
+          <div
+            class="portfolio-item-caption d-flex position-absolute h-100 w-100"
+          >
+            <div
+              class="portfolio-item-caption-content my-auto w-100 text-center text-white"
+            >
+              <p>
+                Facebook Clone - Created with HTML and CSS only. I did not use a UI framework.
+              </p>
+            </div>
+          </div>
+          <img
+            class="facebook-clone"
+            src="/static/img/portfolio/facebook.clone.jpg"
+            alt="facebook-clone"
+          />
+        </a>
+      </div>
+      <!-- end of facebook clone -->
+
+
+      
+
+      <!--start of personal vcard-->
+      <div class="col-lg-6 mb-4">
+        <a
+          class="portfolio-item d-block mx-auto"
+          href="https://github.com/stephieplusthree/node200-ejs-portfolio"
+        >
+          <div
+            class="portfolio-item-caption d-flex position-absolute h-100 w-100"
+          >
+            <div
+              class="portfolio-item-caption-content my-auto w-100 text-center text-white"
+            >
+              <p>
+                Personal Vcard built with EJS.
+              </p>
+            </div>
+          </div>
+          <img
+            class="personalVcard"
+            src="/static/img/portfolio/vcard.cropped.jpg"
+            alt="personal vcard"
+          />
+        </a>
+      </div>
+      <!--end of personal vcard-->
+    </div>
+  </div>
+</section>
+    <!--Footer-->
+    <% include ./partials/footer %>
+  </body>
+</html>
